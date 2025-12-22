@@ -1,0 +1,16 @@
+entrada = input().split(" ")
+a = float(entrada[0])
+b = float(entrada[1])
+c = float(entrada[2])
+
+v = round(a * c / 2, 3)
+w = round(3.14159 * c**2, 3)
+x = round((a + b) * c / 2, 3)
+y = round(b**2, 3)
+z = round(a * b, 3)
+
+print(f"TRIANGULO: {v:.3f}")
+print(f"CIRCULO: {w:.3f}")
+print(f"TRAPEZIO: {x:.3f}")
+print(f"QUADRADO: {y:.3f}")
+print(f"RETANGULO: {z:.3f}")
